@@ -1,0 +1,419 @@
+/*
+ * TeamSpeak 3 - Red Dead RP Theme
+ * Western dark look matching the Vocal Roleplay installer.
+ *
+ * Palette:
+ *   Background  #140C08 / #1A100A
+ *   Panel       #2A180E
+ *   Gold        #D4A84A
+ *   Cream       #F3E6C8
+ *   Muted       #B09676
+ *   Rust        #8B2816
+ *
+ * CustomColor::ClientFriend    = #3D8B5A;
+ * CustomColor::ClientBlocked   = #8B2816;
+ * CustomColor::ClientRecording = #C47A20;
+ * QPalette::Link = #D4A84A;
+ */
+
+* {
+	color: #E8D5B5;
+	selection-background-color: #6B4423;
+	selection-color: #F3E6C8;
+	outline: 0;
+}
+
+QWidget {
+	background-color: #1A100A;
+	color: #E8D5B5;
+}
+
+QMainWindow,
+QDialog,
+QDockWidget,
+ImprovedWidget,
+WebServerList,
+ConnectionInfoDialog {
+	background-color: #1A100A;
+	color: #E8D5B5;
+}
+
+QObject#pageGeneral,
+QObject#pageDisplay,
+QObject#pageIgnore,
+QObject#pageWhisper,
+QWidget#MainWindowServerTabsWidget {
+	background-color: #1A100A;
+}
+
+QMenuBar {
+	background-color: #140C08;
+	border-bottom: 1px solid #4A3420;
+	color: #F3E6C8;
+}
+QMenuBar::item {
+	padding: 4px 8px;
+	background: transparent;
+	color: #F3E6C8;
+}
+QMenuBar::item:selected,
+QMenuBar::item:pressed {
+	background-color: #6B4423;
+	color: #F3E6C8;
+}
+
+QMenu {
+	background-color: #2A180E;
+	border: 1px solid #4A3420;
+	color: #E8D5B5;
+}
+QMenu::item {
+	padding: 4px 18px 4px 24px;
+	border: 1px solid transparent;
+}
+QMenu::item:selected {
+	background-color: #6B4423;
+	color: #F3E6C8;
+}
+QMenu::separator {
+	height: 1px;
+	background: #4A3420;
+	margin: 4px 8px;
+}
+
+QToolBar {
+	background-color: #140C08;
+	border-top: 1px solid #4A3420;
+	border-bottom: 1px solid #4A3420;
+	spacing: 3px;
+	padding: 3px;
+	qproperty-movable: false;
+}
+QToolButton {
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	color: #E8D5B5;
+	padding: 2px;
+}
+QToolButton:hover,
+QToolButton:pressed,
+QToolButton:checked {
+	background-color: #3A2414;
+	border: 1px solid #D4A84A;
+}
+
+QStatusBar {
+	background-color: #140C08;
+	border-top: 1px solid #4A3420;
+	color: #B09676;
+}
+QStatusBar::item {
+	border: none;
+}
+QStatusBar QLabel {
+	padding: 0px 4px;
+	border: 0px;
+	color: #B09676;
+}
+
+QTabBar {
+	qproperty-drawBase: false;
+	background: #140C08;
+}
+QTabBar::tab {
+	background: #22140C;
+	color: #B09676;
+	padding: 6px 12px;
+	border: 1px solid #4A3420;
+	border-bottom: none;
+	margin-right: 2px;
+}
+QTabBar::tab:selected {
+	background: #2A180E;
+	color: #D4A84A;
+	border-top: 2px solid #D4A84A;
+}
+QTabBar::tab:!selected:hover {
+	color: #F3E6C8;
+	background: #2A180E;
+}
+
+QTreeView,
+TreeView,
+QListView,
+QTableView,
+QTextEdit,
+TextBrowser,
+MainWindowChatWidget,
+QWidget#MainWindowChatWidget,
+ChatTab,
+InfoFrame,
+Banner {
+	background-color: #140C08;
+	color: #E8D5B5;
+	border: none;
+	alternate-background-color: #1A100A;
+}
+
+QTreeView {
+	qproperty-alternatingRowColors: 1;
+	qproperty-animated: 1;
+	qproperty-indentation: 16;
+}
+QTreeView#ServerTreeView {
+	qproperty-rootIsDecorated: false;
+	alternate-background-color: transparent;
+}
+QTreeView::item:selected,
+QTreeView::branch:selected,
+QListView::item:selected,
+QTableView::item:selected {
+	background-color: #6B4423;
+	color: #F3E6C8;
+}
+QTreeView::item:hover,
+QListView::item:hover {
+	background-color: #2A180E;
+}
+
+QHeaderView::section {
+	background-color: #2A180E;
+	color: #D4A84A;
+	border: 1px solid #4A3420;
+	padding: 4px;
+}
+
+QLineEdit,
+QTextEdit#ChatLineEdit,
+ChatLineEdit,
+QSpinBox,
+QComboBox {
+	background-color: #2A180E;
+	color: #F3E6C8;
+	border: 1px solid #4A3420;
+	border-radius: 3px;
+	padding: 3px 6px;
+	selection-background-color: #6B4423;
+}
+QLineEdit:focus,
+ChatLineEdit:focus,
+QSpinBox:focus,
+QComboBox:focus {
+	border: 1px solid #D4A84A;
+}
+QTextEdit#ChatLineEdit[helpTextVisible="true"] {
+	color: #B09676;
+}
+QComboBox QAbstractItemView {
+	background-color: #2A180E;
+	color: #E8D5B5;
+	selection-background-color: #6B4423;
+	border: 1px solid #4A3420;
+}
+QComboBox::drop-down {
+	border-left: 1px solid #4A3420;
+	width: 18px;
+}
+
+QPushButton {
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #3A2414, stop:1 #2A180E);
+	color: #F3E6C8;
+	border: 1px solid #4A3420;
+	border-radius: 3px;
+	padding: 5px 14px;
+	font-weight: bold;
+}
+QPushButton:hover {
+	border: 1px solid #D4A84A;
+	color: #D4A84A;
+}
+QPushButton:pressed {
+	background-color: #6B4423;
+	border: 1px solid #D4A84A;
+}
+QPushButton:disabled {
+	color: #6B5640;
+	border: 1px solid #3A2A1A;
+	background: #1A100A;
+}
+
+QPushButton#connectButton {
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #D4A84A, stop:1 #8B5A2B);
+	color: #140C08;
+	border: 1px solid #D4A84A;
+	font-weight: bold;
+}
+QPushButton#connectButton:hover {
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #E8C56A, stop:1 #D4A84A);
+	color: #140C08;
+}
+QPushButton#connectButton:pressed {
+	background-color: #8B5A2B;
+}
+
+QScrollBar:vertical {
+	background: #140C08;
+	width: 12px;
+	border: none;
+}
+QScrollBar::handle:vertical {
+	background: #4A3420;
+	min-height: 28px;
+	margin: 2px;
+	border-radius: 3px;
+}
+QScrollBar::handle:vertical:hover {
+	background: #D4A84A;
+}
+QScrollBar:horizontal {
+	background: #140C08;
+	height: 12px;
+	border: none;
+}
+QScrollBar::handle:horizontal {
+	background: #4A3420;
+	min-width: 28px;
+	margin: 2px;
+	border-radius: 3px;
+}
+QScrollBar::add-line,
+QScrollBar::sub-line {
+	width: 0;
+	height: 0;
+}
+QScrollBar::add-page,
+QScrollBar::sub-page {
+	background: transparent;
+}
+
+QToolTip {
+	background-color: #2A180E;
+	color: #F3E6C8;
+	border: 1px solid #D4A84A;
+	padding: 4px;
+}
+
+QCheckBox,
+QRadioButton,
+QGroupBox {
+	color: #E8D5B5;
+	background: transparent;
+}
+QGroupBox {
+	border: 1px solid #4A3420;
+	margin-top: 10px;
+	padding-top: 8px;
+}
+QGroupBox::title {
+	color: #D4A84A;
+	subcontrol-origin: margin;
+	left: 8px;
+	padding: 0 4px;
+}
+
+QSlider::groove:horizontal {
+	border: none;
+	height: 4px;
+	background: #4A3420;
+}
+QSlider::sub-page:horizontal {
+	background: #D4A84A;
+}
+QSlider::add-page:horizontal {
+	background: #2A180E;
+}
+QSlider::handle:horizontal {
+	background: #D4A84A;
+	width: 12px;
+	height: 12px;
+	margin: -5px 0;
+	border-radius: 6px;
+}
+
+QLabel#bookmarksBanner,
+QLabel#identitiesBanner,
+QLabel#accountLoginBanner,
+QLabel#accountCreateBanner {
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #3A2414, stop:1 #6B4423);
+	color: #F3E6C8;
+	padding-left: 8px;
+	font-weight: bold;
+	qproperty-minimumSize: 0px 32px;
+	border-bottom: 1px solid #D4A84A;
+}
+
+QWidget#HeadlineLabel {
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #3A2414, stop:1 #2A180E);
+	border-bottom: 1px solid #D4A84A;
+}
+QLabel#OptionsHeadlineTitleLabel {
+	font: 18px 'Georgia';
+	color: #D4A84A;
+	font-weight: bold;
+}
+QLabel#OptionsHeadlineDescriptionLabel {
+	color: #B09676;
+}
+QLabel#appNameLabel {
+	color: #D4A84A;
+	text-transform: lowercase;
+	font: 32px 'Georgia';
+	font-weight: bold;
+}
+
+QTextEdit#InfoFrame {
+	background-color: #140C08;
+	background-image: url('styles:reddead_rp/logo-128x128.png');
+	background-repeat: none;
+	background-position: top right;
+	background-attachment: fixed;
+	color: #E8D5B5;
+}
+
+QTextEdit#ChatTab {
+	background-color: #140C08;
+	color: #E8D5B5;
+}
+
+QProgressBar {
+	border: 1px solid #4A3420;
+	border-radius: 4px;
+	background: #1A100A;
+	text-align: center;
+	color: #F3E6C8;
+}
+QProgressBar::chunk {
+	background-color: #D4A84A;
+}
+
+OptionsDialog QListWidget#ContentsWidget,
+OptionsDialog QListView {
+	background: #2A180E;
+	border: none;
+	outline: none;
+}
+OptionsDialog QListWidget#ContentsWidget::item,
+OptionsDialog QListView::item {
+	color: #E8D5B5;
+	padding: 6px;
+}
+OptionsDialog QListWidget#ContentsWidget::item::selected,
+OptionsDialog QListView::item::selected {
+	background: #6B4423;
+	color: #F3E6C8;
+}
+
+QSplitter::handle {
+	background: #4A3420;
+}
+
+/* Server integrations - mute bright blues */
+com--teamspeak--ui--ServerIntegrationsWidget QWidget#ExistingServerIntegration,
+com--teamspeak--ui--ServerIntegrationsWidget QWidget#AvailableServerIntegration,
+com--teamspeak--ui--ServerIntegrationsWidget com--teamspeak--ui--IntegrationBubble {
+	background: #2A180E;
+	border: 1px solid #4A3420;
+	border-radius: 2px;
+	color: #E8D5B5;
+}

@@ -6,3 +6,24 @@ Desktop.ini
 .env
 .env.*
 _release/
+
+# Build outputs
+**/bin/
+**/obj/
+**/publish/
+hub/publish/
+
+# Large redistributables (shipped via GitHub Releases)
+installer/redist/TeamSpeak3-Setup.exe
+RedM-RP-Utility-Setup.exe
+RedMRpUtility.exe
+TeamSpeak-SaltyChat-Setup.exe
+Nettoyer-Cache-RedM.exe
+hub/rcedit-x64.exe
+
+# Local debug / IDE
+hub/*.log
+hub/dbg-*.png
+hub/app-*.txt
+hub/pub-*.txt
+*.user

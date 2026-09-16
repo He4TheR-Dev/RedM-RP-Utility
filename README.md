@@ -43,10 +43,12 @@ En résumé : **un hub simple pour préparer le vocal RP RedM**, sans galérer a
 ## Captures / aperçu
 
 <p align="center">
-  <img src="assets/app-icon.png" alt="RedM RP Utility icon" width="128"/>
+  <img src="assets/hub-preview.png" alt="RedM RP Utility hub" width="800"/>
 </p>
 
-> Plus de screenshots de l’UI peuvent être ajoutés ici (fenêtre principale, config audio, progression).
+<p align="center">
+  <img src="assets/ts3-reddead-check.png" alt="TeamSpeak Red Dead theme" width="800"/>
+</p>
 
 ---
 
@@ -104,15 +106,19 @@ En résumé : **un hub simple pour préparer le vocal RP RedM**, sans galérer a
 
 ---
 
-## Structure du projet (dev)
+## Structure du projet (source)
 
 ```
-teamspeak/
-├── hub/VocalRoleplay/     # App WinForms (.NET 8)
-├── installer/             # Inno Setup + scripts + redist
-├── RedM-RP-Utility-Setup.exe
+├── hub/VocalRoleplay/     # App WinForms (.NET 8) — code C#
+├── installer/             # Inno Setup + scripts PowerShell + thème
+│   └── redist/            # SaltyChat, thème… (pas TeamSpeak3-Setup.exe ≈108 Mo)
+├── assets/                # Previews README
+├── LICENSE
 └── README.md
 ```
+
+> Le setup public complet (avec TeamSpeak embarqué) est sur **Releases**.  
+> Pour rebuild local : place `TeamSpeak3-Setup.exe` dans `installer/redist/` (voir `installer/redist/README.md`).
 
 ### Build (développement)
 
