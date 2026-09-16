@@ -139,6 +139,8 @@ dotnet publish hub/VocalRoleplay/VocalRoleplay.csproj -c Release -r win-x64 --se
 
 ## Licence
 
+**Copyright (c) 2026 HE4THER DEV (He4TheR-Dev)**
+
 MIT — voir [LICENSE](LICENSE).
 
 ---
@@ -147,4 +149,4 @@ MIT — voir [LICENSE](LICENSE).
 
 - TeamSpeak 3 — [TeamSpeak Systems](https://www.teamspeak.com/)
 - SaltyChat — plugin vocal FiveM/RedM
-- Interface & packaging — RedM RP Utility / [HE4THER DEV](https://github.com/He4TheR-Dev)
+- Interface, code & packaging — Copyright (c) 2026 [HE4THER DEV](https://github.com/He4TheR-Dev)

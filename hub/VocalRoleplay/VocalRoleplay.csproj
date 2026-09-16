@@ -9,8 +9,9 @@
     <AssemblyName>RedMRpUtility</AssemblyName>
     <RootNamespace>RedMRpUtility</RootNamespace>
     <Version>2.1.1</Version>
+    <Copyright>Copyright (c) 2026 HE4THER DEV</Copyright>
+    <Company>HE4THER DEV</Company>
     <Product>RedM RP Utility</Product>
-    <Company>RedM RP Utility</Company>
     <Description>Hub TeamSpeak SaltyChat / Cache RedM</Description>
     <AssemblyTitle>RedM RP Utility</AssemblyTitle>
     <PublishSingleFile>true</PublishSingleFile>
