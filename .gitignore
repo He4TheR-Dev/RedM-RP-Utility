@@ -1,0 +1,8 @@
+﻿Logs/
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
+.env
+.env.*
+_release/
