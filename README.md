@@ -1,7 +1,7 @@
 # RedM RP Utility
 
 <p align="center">
-  <img src="assets/preview-background.png" alt="RedM RP Utility" width="900"/>
+  <img src="assets/hub-preview.png" alt="RedM RP Utility — interface principale" width="900"/>
 </p>
 
 **Stack:** C# · .NET 8 · WinForms
@@ -41,10 +41,6 @@ En résumé : **un hub simple pour préparer le vocal RP RedM**, sans galérer a
 ---
 
 ## Captures / aperçu
-
-<p align="center">
-  <img src="assets/hub-preview.png" alt="RedM RP Utility hub" width="800"/>
-</p>
 
 <p align="center">
   <img src="assets/ts3-reddead-check.png" alt="TeamSpeak Red Dead theme" width="800"/>
