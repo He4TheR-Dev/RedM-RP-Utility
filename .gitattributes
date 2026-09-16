@@ -1,3 +1,12 @@
-﻿*.cs linguist-language=C#
+﻿# App language is C# / .NET WinForms
+*.cs linguist-language=C#
 *.csproj linguist-language=C#
+
+# Installer helpers should not define the repo language
+installer/**/*.ps1 linguist-vendored
+installer/**/*.iss linguist-vendored
+installer/**/*.vbs linguist-vendored
+installer/theme/** linguist-vendored
+
 *.png linguist-documentation
+*.md linguist-documentation
