@@ -1,46 +1,46 @@
 ﻿# RedM RP Utility
 
 <p align="center">
-  <img src="assets/hub-preview.png" alt="RedM RP Utility â€” interface principale" width="560"/>
+  <img src="assets/hub-preview.png" alt="RedM RP Utility main UI" width="560"/>
 </p>
 
-**Stack:** C# Â· .NET 8 Â· WinForms
+**Stack:** C# · .NET 8 · WinForms
 
-**Utilitaire Windows pour le vocal Roleplay RedM** â€” installe, configure et rÃ©pare **TeamSpeak 3 + SaltyChat**, applique un thÃ¨me Red Dead, et nettoie le cache RedM, le tout depuis une seule application.
+**Windows utility for RedM roleplay voice chat** — installs, configures, and repairs **TeamSpeak 3 + SaltyChat**, applies a Red Dead theme, and cleans the RedM cache, all from one app.
 
 ---
 
-## Ã€ quoi Ã§a sert ?
+## What is it for?
 
-Sur RedM (GTA RP / RDR RP), le proximity chat passe souvent par **TeamSpeak + SaltyChat**.  
-Lâ€™installation manuelle est longue : tÃ©lÃ©charger TeamSpeak, Ã©viter Overwolf, installer le plugin, rÃ©gler le micro, le casque, le Push-To-Talk, le thÃ¨me, etc.
+On RedM, proximity chat often goes through **TeamSpeak + SaltyChat**.  
+Manual setup is slow: download TeamSpeak, avoid Overwolf, install the plugin, set mic / headset / Push-To-Talk, theme, and more.
 
-**RedM RP Utility** automatise tout Ã§a :
+**RedM RP Utility** automates that:
 
-| Besoin | Ce que fait le logiciel |
+| Need | What the software does |
 |---|---|
-| Vocal RP prÃªt Ã  jouer | Installe TeamSpeak 3 **sans Overwolf** + SaltyChat + thÃ¨me |
-| Config audio correcte | Assistant micro / casque / **Push-To-Talk** (pas le mode dÃ©tection de voix) |
-| RedM qui rame / bugs cache | Nettoie les caches RedM **sans toucher** Ã  `game-storage` |
-| Repartir de zÃ©ro | DÃ©sinstalle TeamSpeak, SaltyChat et Overwolf en un clic |
-| Lancer TS rapidement | Bouton pour ouvrir TeamSpeak sâ€™il est installÃ© |
+| RP voice ready to play | Installs TeamSpeak 3 **without Overwolf** + SaltyChat + theme |
+| Correct audio config | Mic / headset / **Push-To-Talk** wizard (not voice activation) |
+| RedM lag / cache bugs | Cleans RedM caches **without touching** `game-storage` |
+| Fresh start | Uninstalls TeamSpeak, SaltyChat, and Overwolf in one click |
+| Quick launch | Button to open TeamSpeak if installed |
 
-En rÃ©sumÃ© : **un hub simple pour prÃ©parer le vocal RP RedM**, sans galÃ©rer avec les installateurs et les rÃ©glages.
-
----
-
-## FonctionnalitÃ©s
-
-- **Installer / RÃ©parer** â€” TeamSpeak 3 + SaltyChat + thÃ¨me Red Dead
-- **Nettoyer cache RedM** â€” Logs / Crashes / Data (conserve la sauvegarde `game-storage`)
-- **DÃ©sinstaller tout** â€” TeamSpeak, SaltyChat, Overwolf (RedM nâ€™est pas touchÃ©)
-- **Ouvrir TeamSpeak 3** â€” lance le client dÃ©tectÃ©
-- Interface **borderless** style western / Red Dead
-- Pas de fenÃªtre PowerShell visible pendant lâ€™installation
+In short: **a simple hub to prepare RedM RP voice**, without fighting installers and settings.
 
 ---
 
-## Captures / aperÃ§u
+## Features
+
+- **Install / Repair** — TeamSpeak 3 + SaltyChat + Red Dead theme
+- **Clean RedM cache** — Logs / Crashes / Data (keeps `game-storage`)
+- **Uninstall all** — TeamSpeak, SaltyChat, Overwolf (RedM is left alone)
+- **Open TeamSpeak 3** — launches the detected client
+- **Borderless** western / Red Dead style UI
+- No visible PowerShell window during install
+
+---
+
+## Screenshots
 
 <p align="center">
   <img src="assets/ts3-reddead-check.png" alt="TeamSpeak Red Dead theme" width="480"/>
@@ -48,53 +48,53 @@ En rÃ©sumÃ© : **un hub simple pour prÃ©parer le vocal RP RedM**, sans gal�
 
 ---
 
-## PrÃ©requis
+## Requirements
 
 - Windows **10 / 11** (64-bit)
-- Droits utilisateur standard (pas besoin dâ€™admin dans le cas normal)
-- RedM installÃ© si tu veux utiliser le nettoyage de cache
+- Standard user rights (admin usually not required)
+- RedM installed if you want cache cleaning
 
 ---
 
 ## Installation
 
-### Option recommandÃ©e â€” Setup
+### Recommended — Setup
 
-1. TÃ©lÃ©charge la derniÃ¨re release : **[RedM-RP-Utility-Setup.exe](https://github.com/He4TheR-Dev/RedM-RP-Utility/releases/latest)**
-2. Lance lâ€™installateur
-3. Ouvre **RedM RP Utility** depuis le Bureau
-4. Clique **Installer / RÃ©parer**
-5. Choisis ton micro, ton casque et ta touche PTT
-6. Attends la fin, puis ouvre TeamSpeak
+1. Download the latest release: **[RedM-RP-Utility-Setup.exe](https://github.com/He4TheR-Dev/RedM-RP-Utility/releases/latest)**
+2. Run the installer
+3. Open **RedM RP Utility** from the Desktop
+4. Click **Install / Repair**
+5. Choose your mic, headset, and PTT key
+6. Wait until it finishes, then open TeamSpeak
 
-### Option portable
+### Portable option
 
-1. Prends `RedMRpUtility.exe` **avec** le dossier `Assets`
-2. Lance lâ€™exe  
-   *(les redist / scripts doivent Ãªtre prÃ©sents comme aprÃ¨s une install Setup)*
-
----
-
-## Utilisation
-
-1. Lance **RedM RP Utility**
-2. VÃ©rifie le statut en bas :
-   - point vert â†’ TeamSpeak dÃ©tectÃ©
-   - sinon â†’ utilise **Installer / RÃ©parer**
-3. Utilise les cartes dâ€™action selon ton besoin
+1. Take `RedMRpUtility.exe` **with** the `Assets` folder
+2. Run the exe  
+   *(redistributables / scripts must be present as after a Setup install)*
 
 ---
 
-## DÃ©sinstallation
+## Usage
 
-- **Retirer TeamSpeak / SaltyChat / Overwolf** â†’ bouton **DÃ©sinstaller tout** dans lâ€™app  
-- **Retirer lâ€™utilitaire** â†’ ParamÃ¨tres Windows â†’ Applications â†’ *RedM RP Utility*
+1. Launch **RedM RP Utility**
+2. Check the status bar:
+   - green dot → TeamSpeak detected
+   - otherwise → use **Install / Repair**
+3. Use the action cards as needed
 
 ---
 
-## Versions incluses
+## Uninstall
 
-| Composant | Version |
+- **Remove TeamSpeak / SaltyChat / Overwolf** → **Uninstall all** button in the app  
+- **Remove the utility** → Windows Settings → Apps → *RedM RP Utility*
+
+---
+
+## Included versions
+
+| Component | Version |
 |---|---|
 | RedM RP Utility | 2.1.x |
 | TeamSpeak 3 Client | 3.6.2 |
@@ -102,47 +102,47 @@ En rÃ©sumÃ© : **un hub simple pour prÃ©parer le vocal RP RedM**, sans gal�
 
 ---
 
-## Structure du projet (source)
+## Project structure (source)
 
 ```
-â”œâ”€â”€ hub/VocalRoleplay/     # App WinForms (.NET 8) â€” code C#
-â”œâ”€â”€ installer/             # Inno Setup + scripts PowerShell + thÃ¨me
-â”‚   â””â”€â”€ redist/            # SaltyChat, thÃ¨meâ€¦ (pas TeamSpeak3-Setup.exe â‰ˆ108 Mo)
-â”œâ”€â”€ assets/                # Previews README
-â”œâ”€â”€ LICENSE
-â””â”€â”€ README.md
+├── hub/VocalRoleplay/     # WinForms app (.NET 8) — C# code
+├── installer/             # Inno Setup + PowerShell scripts + theme
+│   └── redist/            # SaltyChat, theme… (not TeamSpeak3-Setup.exe ≈108 MB)
+├── assets/                # README previews
+├── LICENSE
+└── README.md
 ```
 
-> Le setup public complet (avec TeamSpeak embarquÃ©) est sur **Releases**.  
-> Pour rebuild local : place `TeamSpeak3-Setup.exe` dans `installer/redist/` (voir `installer/redist/README.md`).
+> The full public setup (with TeamSpeak embedded) is on **Releases**.  
+> For a local rebuild: place `TeamSpeak3-Setup.exe` in `installer/redist/` (see `installer/redist/README.md`).
 
-### Build (dÃ©veloppement)
+### Development build
 
 ```bash
 dotnet publish hub/VocalRoleplay/VocalRoleplay.csproj -c Release -r win-x64 --self-contained true -o hub/publish
-# Puis compiler installer/setup.iss avec Inno Setup 6
+# Then compile installer/setup.iss with Inno Setup 6
 ```
 
 ---
 
-## Avertissements
+## Warnings
 
-- Cet outil configure **ton** TeamSpeak / SaltyChat pour le roleplay. Il ne remplace pas les rÃ¨gles de ton serveur.
-- Ferme TeamSpeak avant une install / rÃ©paration / dÃ©sinstallation si lâ€™app le demande.
-- Le nettoyage RedM ne supprime **pas** `game-storage` (inventaire / progressions liÃ©es).
+- This tool configures **your** TeamSpeak / SaltyChat for roleplay. It does not replace your server rules.
+- Close TeamSpeak before install / repair / uninstall if the app asks you to.
+- RedM cleanup does **not** delete `game-storage` (inventory / related progress).
 
 ---
 
-## Licence
+## License
 
 **Copyright (c) 2026 HE4THER DEV (He4TheR-Dev)**
 
-MIT â€” voir [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
 
 ---
 
-## CrÃ©dits
+## Credits
 
-- TeamSpeak 3 â€” [TeamSpeak Systems](https://www.teamspeak.com/)
-- SaltyChat â€” plugin vocal FiveM/RedM
-- Interface, code & packaging â€” Copyright (c) 2026 [HE4THER DEV](https://github.com/He4TheR-Dev)
+- TeamSpeak 3 — [TeamSpeak Systems](https://www.teamspeak.com/)
+- SaltyChat — FiveM/RedM voice plugin
+- UI, code & packaging — Copyright (c) 2026 [HE4THER DEV](https://github.com/He4TheR-Dev)
